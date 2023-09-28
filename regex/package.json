@@ -1,0 +1,29 @@
+{
+  "name": "regex",
+  "version": "1.0.0",
+  "description": "**Важно**: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yi1lei6a3/ajs-homeworks.git#ajs8"
+  },
+  "author": "Ilya Dubinin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yi1lei6a3/ajs-homeworks/issues"
+  },
+  "homepage": "https://github.com/yi1lei6a3/ajs-homeworks/tree/ajs8#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.22.20",
+    "eslint": "^8.50.0"
+  },
+  "dependencies": {
+    "core-js": "^3.32.2"
+  }
+}
