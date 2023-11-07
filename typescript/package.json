@@ -1,0 +1,32 @@
+{
+    "name": "typescript",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest --coverage",
+      "build": "tsc",
+      "watch": "tsc -w",
+      "lint": "eslint ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/DevvIlya/ajs-homeworks.git#ajs8"
+    },
+    "author": "DevvIlya",
+    "license": "ISC",
+    "devDependencies": {
+      "@types/jest": "^29.5.2",
+      "@typescript-eslint/eslint-plugin": "^5.60.1",
+      "@typescript-eslint/parser": "^5.60.1",
+      "eslint": "^8.40.0",
+      "eslint-config-airbnb-base": "^15.0.0",
+      "eslint-config-airbnb-typescript": "^17.0.0",
+      "eslint-plugin-import": "^2.27.5",
+      "html-loader": "^4.2.0",
+      "html-webpack-plugin": "^5.5.1",
+      "ts-jest": "^29.1.0",
+      "ts-loader": "^9.4.4",
+      "typescript": "^5.1.5"
+    }
+  }

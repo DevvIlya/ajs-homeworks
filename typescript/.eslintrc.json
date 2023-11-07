@@ -1,0 +1,28 @@
+{
+    "extends": [
+        "airbnb-base",
+        "airbnb-typescript/base"
+    ],  
+    "env": {
+        "browser": true,
+        "es2016": true,
+        "jest": true
+    },
+    "overrides": [
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module",
+        "project": "./tsconfig.json"
+    },
+    "rules": {
+        "no-restricted-syntax": [
+            "error",
+            "LabeledStatement",
+            "WithStatement"
+        ],
+        "no-underscore-dangle": [
+            "off"
+        ]
+    }
+}
